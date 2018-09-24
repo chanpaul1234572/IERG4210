@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="../js/jquery.breadcrumbs-generator.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../all.css" />
+    <script>
+        $(document).ready(function() {
+                $('#breadcrumbs').breadcrumbsGenerator({
+                    sitemaps :"#sitemaps1"
+                });
+        });
+    </script>
+</head>
+<body>
+    <ol id="breadcrumbs"></ol>
+    <nav id="sitemaps1" style="visibility: hidden;">
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+                <ul>
+                    <li>
+                        <a href="product.html">Product</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

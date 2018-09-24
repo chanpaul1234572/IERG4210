@@ -1,0 +1,69 @@
+body {
+    font-family:Monaco;
+    /*margin: 0;*/
+}
+
+.container {
+    /*position: relative;*/
+    position: absolute;
+    margin: auto;
+    border: 20px;
+    top:0%;
+    left:50%;
+    /*border-width: 10px;*/
+}
+
+.responsive_header {
+    max-width:323px;
+    max-height:156px;
+    width: auto;
+    height: auto;
+    opacity: 0.5;
+    padding-left: 0%;
+    z-index:20;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: "Allan";
+}
+
+nav.sidenavbar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+nav.sidebarnav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+
+  }
+
+#id_content {
+    /* 留出header及footer區塊的空間 */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#id_footer {
+    /* 設定footer的高度 */
+    height: 40px;
+    box-sizing: border-box;
+    /* 設定footer絕對位置在底部 */
+    position: absolute;
+    bottom: 0;
+    /* 展開footer寬度 */
+    width: 100%;
+}
