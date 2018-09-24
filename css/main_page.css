@@ -8,7 +8,7 @@ body {
 }
 /* Sytle the header */
 .header {
-    background-color: azure;
+    background-color:#079992;
     width: 100%;
     position: relative;
     height: 156px;
@@ -37,36 +37,10 @@ body {
 
 .nav {
     width: 100%;
-    background-color: #03A9F4;
-    /*border: 2px #303F9F;
-    border-style: solid;*/
+    background-color:#ddd;
     margin-top: 2px;
     margin-bottom: 0px;
     height: auto;
-}
-
-ul.breadcrumb {
-    margin-top:0px; 
-    margin-bottom: 0px;
-    padding: 0px 16px;
-    list-style: none;
-}
-ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-}
-ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-}
-ul.breadcrumb li a {
-    color: rgb(230, 64, 180);
-    text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
 }
 
 .container{
@@ -74,23 +48,6 @@ ul.breadcrumb li a:hover {
     height: 1000px;
 }
 
-
-/*
-#breadcrumbs li {
-    display: inline-block;
-  }
-  #breadcrumbs li:not(:first-child) {
-    margin-left: 0.4em;
-  }
-  #breadcrumbs li:not(:first-child):before {
-    content: '>';
-    margin-right: 0.4em;
-  }
-
-.sitemaps {
-    visibility: hidden;
-}  
-*/
 /* Style the side navigation */
 .sidebar {
     margin: 0;
@@ -109,14 +66,14 @@ ul.breadcrumb li a:hover {
   
   .sidebar a {
     font-family: Allan;
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 18px;
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
     text-align: center;
-    height: 50px;
+    height: 60px;
     border-radius: 3px;
   }
    
@@ -129,32 +86,12 @@ ul.breadcrumb li a:hover {
     background-color: #555;
     color: white;
   }
-  
-.shopping_cart {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 90%;
-    padding:0px 10px 0px 10px;
-    font-family: Nunito;
-    float: right;
-    overflow: auto;
-    background-color:#6495ED;
-    text-align:right;
-    border-radius: 3px;
-    height: 50px;
-}
-
-.shopping_cart p{
-    margin-top: 14px;
-    margin-bottom: 14px;
-}
 
 .section {
     float:right;
     position: absolute;
     right:0px;
-    top:50px;
+    top:0px;
     bottom: 0px;
     background-color:beige;
     margin-left: 200px;
@@ -184,11 +121,11 @@ ul.breadcrumb li a:hover {
 
 ul.table{
     position: absolute;
-    width:80%;
+    width:100%;
     height:895px;
     margin-top:5;
-    margin-left:15%; 
-    margin-right:15%;
+    margin-left:0%; 
+    margin-right:0%;
     list-style:none;
     overflow:auto;
     padding: 0px;
