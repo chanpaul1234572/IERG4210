@@ -4,125 +4,17 @@
 
 body {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Allan, Arial, Helvetica, sans-serif;
 }
 /* Sytle the header */
-/*
-.header {
-    position: relative;
-    background-color:#079992;
-    width: 100%;
-    min-height: 156px;
-}
-
-.header_image{
-    position: absolute;
-    right: 0px;
-    max-height: 500px;
-    opacity: 0.8;
-}
-
-.dropbtn {
-    position: absolute;
-    right: 0px;
-    max-height: 500px;
-    opacity: 0.8;
-}
-
-.dropdown {
-    position: absolute;
-    right: 0px;
-    max-height: 500px;
-    opacity: 0.8;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-.text_center {
-    font-family: Allan;
-    position: absolute;
-    font-weight: bold;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    text-decoration: none;
-    color: #e55039;
-}
-*/
-/*
-.button-hover-addcart {
-    border: 2px solid #767676;
-    background: transparent;
-    color: #767676;
-    text-transform: uppercase;
-    overflow: hidden;
-    letter-spacing: 0.07rem;
-    transition: all 0.2s ease-in-out;
-    position: relative;
-    top: 132px;
-    right: -1619px;
-  }
-  
-  .button-hover-addcart span {
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .button-hover-addcart .fa {
-    position: absolute;
-    font-size: 1.2rem;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    color: #1779ba;
-    right: -20px;
-    transition: 0.4s right cubic-bezier(0.38, 0.6, 0.48, 1);
-  }
-  
-  .button-hover-addcart:hover {
-    border-color: #1779ba;
-    background: transparent;
-    transition: border-color 0.2s;
-  }
-  
-  .button-hover-addcart:hover span {
-    margin-right: 20px;
-    color: #1779ba;
-  }
-  
-  .button-hover-addcart:hover .fa {
-    right: 12px;
-  }
-*/  
 
 ul.drop {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #333;
+    background:#6bd5e1;
+    color: #f7f4e3;
 }
 
 ul.drop li {
@@ -131,7 +23,7 @@ ul.drop li {
 
 ul.drop li a, .dropbtn{
     display: inline-block;
-    color: white;
+    color: #f7f4e3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -141,7 +33,7 @@ ul.drop li a, .dropbtn{
 }
 
 ul.drop li a:hover, .dropdown:hover .dropbtn{
-    background-color: red;
+    background-color:#FF8364;
 }
 
 ul.drop li.dropdown{
@@ -151,7 +43,7 @@ ul.drop li.dropdown{
 .drop .dropdown .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #01FF70;
+    background-color: #FFB677;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 100;
@@ -159,8 +51,8 @@ ul.drop li.dropdown{
 }
 
 .drop .dropdown .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color:#f7f4e3;
+    padding: 12px 10px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -194,7 +86,7 @@ ul.drop li.dropdown{
     top: 0px;
     width: 10%;
     min-width: 130px;
-    background-color: #f1f1f1;
+    background-color: #6BD5E1;
     position: absolute;
     height: 1000px;
     overflow: auto;
@@ -206,7 +98,7 @@ ul.drop li.dropdown{
     font-weight: 500;
     font-size: 18px;
     display: block;
-    color: black;
+    color: #f7f4e3;
     padding: 16px;
     text-decoration: none;
     text-align: center;
@@ -220,7 +112,7 @@ ul.drop li.dropdown{
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: #FF8364;
     color: white;
   }
 
@@ -236,6 +128,12 @@ ul.drop li.dropdown{
     padding-top: 20px;
     /*height: 950px;*/
     width: 90%;
+    background-color: #FFD98E;
+}
+
+.section h1{
+    font-size:30px;
+    text-align: center;
 }
 
 .footer{
@@ -290,13 +188,31 @@ ul.table li{
 }
 
 .product{
-    text-align:center
+    text-align:center;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 
 .price{
     font-family: Allan;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     color: #F08080;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=text].value {
+    border-radius: 3px;
+    border: #6BD5E1;
+    height: 24px;
+    margin-left: 20px;
+}
+
+input[type=submit].value{
+    background-color: #4CAF50;
+    width: 100%;
+    border-radius: 3px;
+    border: 0px;
 }
