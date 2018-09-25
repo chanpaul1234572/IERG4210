@@ -281,8 +281,22 @@ ul.table li{
     top: 2px;
 }
 
-.clear{clear:both}
+.clear{
+    clear:both;
+    font-family: Sans-Serif;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+}
 
 .product{
     text-align:center
+}
+
+.price{
+    font-family: Allan;
+    font-weight: 500;
+    font-size: 20px;
+    color: #F08080;
+    text-align: center;
 }
