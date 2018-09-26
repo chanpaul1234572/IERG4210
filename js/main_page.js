@@ -1,4 +1,3 @@
-var array = [];
 jQuery(document).ready(function() {
     $("#breadcrumbs").rcrumbs({nbUncollapsableCrumbs: 3});
     
@@ -113,5 +112,4 @@ jQuery(document).ready(function() {
     let row = $(".table li").length;
     let output_messgae = "<p class='clear'>Total: " + row + " items</p>"
     $(".table").append(output_messgae);
-    content = $(".dropdown-content a").get(1);
 });

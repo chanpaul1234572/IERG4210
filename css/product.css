@@ -193,3 +193,8 @@ input[type=submit].value{
     border-radius: 3px;
     border: 0px;
 }
+
+#p3 img{
+    min-width: 600px;
+    min-height: 330px;
+}
