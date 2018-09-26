@@ -85,12 +85,12 @@ ul.drop li.dropdown{
     left: 0px;
     top: 0px;
     width: 10%;
-    min-width: 100px;
+    min-width: 130px;
     background-color: #6BD5E1;
     position: absolute;
+    height: 1000px;
     overflow: auto;
     z-index: 10;
-    height: 1000px;
   }
   
   .sidebar a {
@@ -126,14 +126,28 @@ ul.drop li.dropdown{
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 20px;
-    height: 1000px;
+    /*height: 950px;*/
     width: 90%;
     background-color: #FFD98E;
 }
 
 .section h1{
-    font-size:30px;
+    font-size:50px;
     text-align: center;
+}
+
+.section img{
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.section p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
 }
 
 .footer{
@@ -150,44 +164,6 @@ ul.drop li.dropdown{
     margin-bottom: 0px;
 }
 
-.container2{
-    position: relative;
-}
-
-ul.table{
-    position: absolute;
-    width:100%;
-    height:895px;
-    margin-left:0; 
-    margin-right:0%;
-    list-style:none;
-    overflow:auto;
-    padding-left:0px;
-}
-ul.table li{
-    width:280px;
-    height:400px;
-    float:left;
-    border:5px solid #CCC;
-    padding: 5px 5px 5px 5px;
-    border-radius: 3px;
-    margin:5px;
-}
-.product_img {
-    width: 200px;
-    height: 200px;
-    top: 2px;
-}
-
-.clear{
-    clear:both;
-    color: #FF8364;
-    font-family: Sans-Serif;
-    font-size: 20px;
-    font-weight: 500;
-    float: right;
-}
-
 .product{
     text-align:center;
     margin-top:10px;
@@ -197,9 +173,9 @@ ul.table li{
 .price{
     font-family: Allan;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 50px;
     color: #F08080;
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
 }

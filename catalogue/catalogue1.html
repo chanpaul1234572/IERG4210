@@ -13,21 +13,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main_page.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="../js/jquery.rcrumbs.js"></script>
-    <script src="../js/main_page.js"></script>
+    <script src="../js/catalogue.js"></script>
 </head>
 <body>
     <header class="header">    
         <ul class="drop">
-            <li><a href="#">Home</a></li>
+            <li><a href="../main_page.html">Home</a></li>
             <li><a href="#">News</a></li>
             <li class="dropdown">
               <a href="javascript:void(0)" class="dropbtn">Shopping Cart</a>
               <div class="dropdown-content">
                 <a href="./shoppingCart.html">Shopping list</a>
-                <a href="#">item 1</a>
-                <a href="#">item 2</a>
-                <a href="#">item 3</a>
-                <a href="#">Buy it!</a>
+                <a href="https://www.paypal.com/us/home">Buy it!</a>
               </div>
             </li>
           </ul>
@@ -53,27 +50,30 @@
     <section class="section">
       <div class="container2">
         <ul class="table">
+          <h1>Welcome to Shopping Time<h1>
             <li class="product" id="p1">
-                <a href="#"><img src="../images/wine.jpg" class="product_img"/>
-                  <p>Product 1</p>
+                <a href="../product/redwine.html"><img src="../images/wine.jpg" class="product_img"/>
+                  <p>Red Wine</p>
                 </a>
-                <p>$40</p>
+                <p class="price">$40</p>
+                <button class="addtocart">Add to Cart</button>
               </li>
-              <li class="product" id="p2">
-                <img src="../images/wine.jpg" class="product_img"/>
-                <p>Product</p>
+              <li class="product" id="p4">
+                <a href="#">
+                  <img src="../images/whiskey.jpg" class="product_img"/>
+                  <p>whiskey</p>
+                </a>
+                <p class="price">$40</p>
+                <button class="addtocart">Add to Cart</button>
               </li>
-              <li class="product" id="p3">
-                <img src="../images/wine.jpg" class="product_img"/>Product 3</li>
-              <li class="product" id="p4"><img src="../images/wine.jpg" class="product_img"/>Product 4</li>
-              <li class="product" id="p5"><img src="../images/wine.jpg" class="product_img"/>Product 5</li>
-              <li class="product" id="p6"><img src="../images/wine.jpg" class="product_img"/>Product 6</li>
-              <li class="product" id="p7"><img src="../images/wine.jpg" class="product_img"/>Product 7</li>
-              <li class="product" id="p8"><img src="../images/wine.jpg" class="product_img"/>Product 8</li>
-              <li class="product" id="p9"><img src="../images/wine.jpg" class="product_img"/>Product 9</li>
-              <li class="product" id="p10"><img src="../images/wine.jpg" class="product_img"/>Product 10</li>
-              <li class="product" id="p11"><img src="../images/wine.jpg" class="product_img"/>Product 11</li>
-              <li class="product" id="p12"><img src="../images/wine.jpg" class="product_img"/>Product 12</li>
+              <li class="product" id="p5">
+                  <a href="#">
+                    <img src="../images/cola.jpeg" class="product_img"/>
+                    <p>Cola</p>
+                  </a>           
+                  <p class="price">$5</p>
+                  <button class="addtocart">Add to Cart</button>
+                </li>
           </ul>   
       </div>          
     </section>
